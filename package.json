@@ -1,0 +1,38 @@
+{
+  "name": "node-rest-auth",
+  "version": "1.0.0",
+  "description": "Restful user authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmolBhagat/node-rest-auth.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Authentication",
+    "Tutorial"
+  ],
+  "author": "Amol Bhagat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmolBhagat/node-rest-auth/issues"
+  },
+  "homepage": "https://github.com/AmolBhagat/node-rest-auth#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "winston": "^2.4.1"
+  }
+}
